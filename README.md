@@ -31,6 +31,28 @@
 
 Python · SQL · PostgreSQL · DuckDB · PySpark · FastAPI · React · Docker
 
+## GitHub activity
+
+<div align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=TempestShaw&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Victor's GitHub stats" height="165">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=TempestShaw&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="165">
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TempestShaw&theme=tokyonight&hide_border=true" alt="GitHub streak" height="165">
+</div>
+
+<table align="center">
+  <tr>
+    <td align="center">🦈<br><strong>Pull Shark ×3</strong></td>
+    <td align="center">🤝<br><strong>Pair Extraordinaire ×3</strong></td>
+    <td align="center">⚡<br><strong>Quickdraw</strong></td>
+    <td align="center">🎲<br><strong>YOLO</strong></td>
+  </tr>
+</table>
+
+> Public GitHub activity only; private repositories are intentionally excluded.
+
 ## Background
 
 - MISM-BIDA — Carnegie Mellon University
