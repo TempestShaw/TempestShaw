@@ -19,6 +19,7 @@
 | Project | What it is |
 | --- | --- |
 | [FinanceCLI](https://github.com/TempestShaw/FinanceCLI) | Evidence-first financial research from the terminal, including SEC filings, financial statements, calculations, and AI-agent workflows. |
+| [FastPin](https://github.com/TempestShaw/FastPin) | A C++ screenshot tool for macOS and Windows with desktop pins, annotations, OCR, pixel color picking, and customizable shortcuts. |
 | [Smart Badminton](https://github.com/TempestShaw/Smart-Badminton) | A computer-vision pipeline that turns fixed-camera badminton footage into rally clips through motion, pose, audio, and shuttle analysis. |
 | [Personal portfolio](https://victorkwong.vercel.app/) | A visual overview of my experience, research, systems work, and public projects. |
 
