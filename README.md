@@ -8,29 +8,52 @@
 ·
 [LinkedIn](https://www.linkedin.com/in/victor-kwong/)
 ·
-[Selected projects](https://github.com/TempestShaw?tab=repositories)
+[HermesEngine live demo](https://www.quant-engines.com)
+·
+[All repositories](https://github.com/TempestShaw?tab=repositories)
 
 </div>
 
-> Building reliable systems, reproducible research tools, and useful data products — with a little anime energy.
+> I build end-to-end systems: data ingestion, research and models, production services, and the product people actually use.
 
-## Selected work
+## Featured
 
-| Project | What it is |
-| --- | --- |
-| [FinanceCLI](https://github.com/TempestShaw/FinanceCLI) | Evidence-first financial research from the terminal, including SEC filings, financial statements, calculations, and AI-agent workflows. |
-| [FastPin](https://github.com/TempestShaw/FastPin) | A C++ screenshot tool for macOS and Windows with desktop pins, annotations, OCR, pixel color picking, and customizable shortcuts. |
-| [Smart Badminton](https://github.com/TempestShaw/Smart-Badminton) | A computer-vision pipeline that turns fixed-camera badminton footage into rally clips through motion, pose, audio, and shuttle analysis. |
-| [Personal portfolio](https://victorkwong.vercel.app/) | A visual overview of my experience, research, systems work, and public projects. |
+### 📈 HermesEngine: quantitative trading platform · [Live demo](https://www.quant-engines.com)
+
+Market intelligence, quantitative research and strategy execution in one system, running in production for my own portfolio.
+
+- **Market intelligence:** news and event threads, market-regime dashboard, themes, and scheduled decision reports shared by the web UI and Discord.
+- **Research:** factor evaluation, cross-sectional LightGBM models, and NautilusTrader backtests over explicit symbols, dates, costs and frozen inputs.
+- **Execution:** immutable strategy versions, an execution ledger with risk admission, idempotent orders, and broker reconciliation (Futu, IBKR).
+- **Platform:** FastAPI, Celery workers and a scheduler on PostgreSQL + Redis, S3-compatible artifact storage, and a React front end. CI deploys to a self-hosted runner.
+
+`Python` `FastAPI` `PostgreSQL` `Redis` `Celery` `DuckDB` `LightGBM` `NautilusTrader` `React` `TypeScript` `Docker`
+
+<sub>Source is private because it trades real money. Happy to walk through the code and architecture on request.</sub>
+
+### 🔎 [FinanceCLI](https://github.com/TempestShaw/FinanceCLI): financial research tools for AI agents · [Website](https://tempestshaw.github.io/FinanceCLI/) · [PyPI](https://pypi.org/project/finresearch-cli/)
+
+Gives an agent SEC filings, financial statements, document reading, market data, finance formulas and backtests, with every answer traceable to its source and inputs. Ships as a CLI and an agent skill, with recorded research sessions in the [showcase](https://tempestshaw.github.io/FinanceCLI/showcase/).
+
+`Python` `SEC EDGAR` `AI agents` `Astro`
+
+## More projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Smart Badminton](https://github.com/TempestShaw/Smart-Badminton) · [web app](https://smart-badminton-tau.vercel.app/) | Turns fixed-camera match video into editable rally highlights from shuttle tracking, player pose and audio. In development: real-time rally, shot and player stats, running on a laptop or entirely in the phone browser. | Python, computer vision, TypeScript, WebGPU |
+| [FastPin](https://github.com/TempestShaw/FastPin) · [site](https://tempestshaw.github.io/FastPin/) | Native screenshot tool for macOS and Windows: desktop pins, annotations, OCR, translation, pixel color picking, custom shortcuts. | C++, Qt, Objective-C++ |
+| [Dopamine](https://github.com/TempestShaw/Dopamine) · [site](https://tempestshaw.github.io/Dopamine/) | Local-first screen-time tracker for macOS and Windows with a timeline, per-window breakdown and automatic categories. | Swift, C#, TypeScript |
+| [CMU Badminton](https://github.com/TempestShaw/cmu-badminton) · [live](https://cmubmt.vercel.app) | Court sign-up and queue used by CMU recreational badminton: phone check-in, Web Push alerts, court-side screen. Redis compare-and-set for concurrent updates. | JavaScript, Vercel, Redis |
 
 ## Focus
 
 - Data science and machine learning
+- Quantitative research and trading systems
 - Data engineering and reproducible ETL pipelines
 - AI agents, tool orchestration, and evaluation
-- Financial data and research tooling
 
-Python · SQL · PostgreSQL · DuckDB · PySpark · FastAPI · React · Docker
+Python · SQL · PostgreSQL · DuckDB · PySpark · FastAPI · React · TypeScript · C++ · Docker
 
 ## GitHub activity
 
@@ -60,10 +83,6 @@ Python · SQL · PostgreSQL · DuckDB · PySpark · FastAPI · React · Docker
 - Finance & Information Systems — HKUST
 - Former Data Science Intern — Capital One
 - Kaggle Silver Medal — Top 1.1%, Home Credit Credit Risk Model Stability
-
-## Currently exploring
-
-Reliable AI and data systems, financial research infrastructure, and practical machine-learning applications.
 
 ## Find me
 
