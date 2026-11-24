@@ -41,7 +41,7 @@ Gives an agent SEC filings, financial statements, document reading, market data,
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [Smart Badminton](https://github.com/TempestShaw/Smart-Badminton) · [web app](https://smart-badminton-tau.vercel.app/) | Turns fixed-camera match video into editable rally highlights from shuttle tracking, player pose and audio. In development: real-time rally, shot and player stats, running on a laptop or entirely in the phone browser. | Python, computer vision, TypeScript, WebGPU |
+| [Smart Badminton](https://github.com/TempestShaw/Smart-Badminton) · [web app](https://smartbadminton.vercel.app/) | Turns fixed-camera match video into editable rally highlights from shuttle tracking, player pose and audio. Live mode shows real-time rally, shot and player stats from a laptop or entirely in the phone browser. | Python, computer vision, TypeScript, WebGPU |
 | [FastPin](https://github.com/TempestShaw/FastPin) · [site](https://tempestshaw.github.io/FastPin/) | Native screenshot tool for macOS and Windows: desktop pins, annotations, OCR, translation, pixel color picking, custom shortcuts. | C++, Qt, Objective-C++ |
 | [Dopamine](https://github.com/TempestShaw/Dopamine) · [site](https://tempestshaw.github.io/Dopamine/) | Local-first screen-time tracker for macOS and Windows with a timeline, per-window breakdown and automatic categories. | Swift, C#, TypeScript |
 | [CMU Badminton](https://github.com/TempestShaw/cmu-badminton) · [live](https://cmubmt.vercel.app) | Court sign-up and queue used by CMU recreational badminton: phone check-in, Web Push alerts, court-side screen. Redis compare-and-set for concurrent updates. | JavaScript, Vercel, Redis |
